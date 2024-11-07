@@ -1,4 +1,4 @@
-p {
+.pink {
   background-color: lightpink;
   font-family: Verdana, DejaVu Sans, sans-serif;
 }
@@ -10,4 +10,10 @@ p {
 
 .large-font {
   font-size: 24px;
+}
+
+#fourth-element {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
 }
