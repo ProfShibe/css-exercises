@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -35,10 +37,6 @@ a {
   color: gray;
 }
 
-.container {
-  display: flex;
-}
-
 .header,
 .footer {
   display: flex;
@@ -52,20 +50,16 @@ a {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  flex: 1 0 auto;
   gap: 15px;
 }
 
-.left-links {
-  display: flex;
-  gap: 15px;
-}
-
-.right-links {
+.left-links, 
+.right-links{
   display: flex;
   gap: 15px;
 }
 
 .footer {
   background-color: #eeeeee;
-  /*flex-flow: column nowrap;*/
 }
