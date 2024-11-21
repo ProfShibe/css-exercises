@@ -22,11 +22,11 @@ body {
   flex-flow: row nowrap;
   flex: 1 0 auto;
 }
-/**/
-/*#card-container {*/
-/*  display: flex;*/
-/*  flex-flow: row wrap;*/
-/*}*/
+
+#card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 #footer-container{
   display: flex;
